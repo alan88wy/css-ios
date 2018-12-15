@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,25 @@
     <link rel="stylesheet" href="styles.css">
     <title>IOS</title>
 </head>
+
 <body>
-    <!-- <img src="Frame/DeviceFrame.jpg" alt=""> -->
-    <!-- <img id='wallpaper' src="Wallpaper/Default.jpg" alt="Wallpaper"> -->
-    <header class='ios-header'></header>
-    <!-- <div class='ios-wallpaper'>
-        <img id='wallpaper' src="Wallpaper/Default.jpg" alt="Wallpaper">
+
+    <!-- <header class='ios-header'></header> -->
+    <!-- <div id='bg'>
+        <img id='bg-img' src='Wallpaper/Default.jpg' alt=" Default">
     </div> -->
-    <div class='ios-body'></div>
+    <div class='status'>
+        <div class="status-signal">
+            <div id='status-signal-01' class='status-signal-attribute'></div>
+            <div id='status-signal-02' class='status-signal-attribute'></div>
+            <div id='status-signal-03' class='status-signal-attribute'></div>
+            <div id='status-signal-04' class='status-signal-attribute'></div>
+        </div>
+        <p id='status-date'></p>
+        <div class="status-battery"></div>
+    </div>
+
+    <div class='ios-body'>
         <img class='icon-image' src="icons/1.png" alt="1">
         <img class='icon-image' src="icons/2.png" alt="2">
         <img class='icon-image' src="icons/3.png" alt="3">
@@ -36,6 +48,13 @@
         <img class='icon-image' src="icons/19.png" alt="19">
         <img class='icon-image' src="icons/20.png" alt="20">
     </div>
+    <div class='page'>
+        <div class='page-no' id='page-no-01'></div>
+        <div class='page-no' id='page-no-02'></div>
+        <div class='page-no' id='page-no-03'></div>
+    </div>
     <footer class='ios-footer'></footer>
+    <script src='scripts.js'></script>
 </body>
+
 </html>
