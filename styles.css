@@ -1,0 +1,58 @@
+/* * {
+	box-sizing: border-box;
+
+} */
+/* html {
+	height: 750px;
+} */
+	/* background-image: url(Frame/DeviceFrame.jpg); */
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+
+/* } */
+
+/* img {
+	position: fixed;
+	z-index: 0;
+	height: 300px;
+} */
+
+
+
+html {
+	/* background-image: url(Wallpaper/Default.jpg); */
+	width: 414px;
+	height: 750px;
+	/* background-size: 100%; */
+  /* height: 750px; */
+}
+
+body {
+	background-image: url(Wallpaper/Default.jpg);
+	display: inline-block;
+	/* margin: 0 auto; */
+	/* padding-left: 50px; */
+	/* align-items: center; */
+	/* height: 100%;
+	width: 100%; */
+}
+
+.icon-image {
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	/* margin: 0 auto; */
+	/* align-items: center; */
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: rgb(209, 192, 167);
+	padding: 50px;
+	margin: 0 auto;
+	border: 0px;
+	width: 100%;
+}
